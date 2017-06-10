@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		05658C7B1EEB7B0F00D42584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05658C7A1EEB7B0F00D42584 /* AppDelegate.swift */; };
-		05658C7D1EEB7B0F00D42584 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 05658C7C1EEB7B0F00D42584 /* art.scnassets */; };
 		05658C7F1EEB7B0F00D42584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05658C7E1EEB7B0F00D42584 /* ViewController.swift */; };
 		05658C841EEB7B0F00D42584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05658C831EEB7B0F00D42584 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		05658C771EEB7B0F00D42584 /* PotatoWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PotatoWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05658C7A1EEB7B0F00D42584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05658C7C1EEB7B0F00D42584 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		05658C7E1EEB7B0F00D42584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05658C831EEB7B0F00D42584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05658C881EEB7B0F00D42584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				05658C7A1EEB7B0F00D42584 /* AppDelegate.swift */,
-				05658C7C1EEB7B0F00D42584 /* art.scnassets */,
 				05658C7E1EEB7B0F00D42584 /* ViewController.swift */,
 				05658C831EEB7B0F00D42584 /* Assets.xcassets */,
 				05658C881EEB7B0F00D42584 /* Info.plist */,
@@ -119,7 +116,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05658C7D1EEB7B0F00D42584 /* art.scnassets in Resources */,
 				05658C841EEB7B0F00D42584 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +242,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NLZ6A6UJ7;
 				INFOPLIST_FILE = PotatoWater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.potatofire.PotatoWater;
@@ -259,6 +256,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NLZ6A6UJ7;
 				INFOPLIST_FILE = PotatoWater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.potatofire.PotatoWater;
