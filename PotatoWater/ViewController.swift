@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    override func loadView() {
+        super.loadView()
+        view.backgroundColor = .blue
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,11 +22,6 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
         
     }
     
